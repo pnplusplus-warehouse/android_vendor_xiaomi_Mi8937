@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter Mi8917 Mi8937 Mi439 tiare,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),Mi8937)
 
 endif
